@@ -34,7 +34,10 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
     -Branch: emoji
     -Process:
         -Modify handleClick
-            -Replace alert return with 
+            -Replace alert return with changing the question mark to a tree emoji
+                -Created new array using spread operator on original array
+                -Set the provided index on new array to the tree emoji
+                -Set setBoard to new array
 
 
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
