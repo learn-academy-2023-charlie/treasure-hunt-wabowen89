@@ -21,6 +21,15 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+    -Branch: 
+    -Function Name: handleClick
+    -Psuedocode:
+        -Input: index of selected square (selectedIndex)
+        -Output: alert message
+        -Function call: onClick attribute on the specific square
+            -Use anonymous function to prevent auto calling whenever the page reloads. This ensures the call is only invoked once a box is clicked out.
+
+
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.

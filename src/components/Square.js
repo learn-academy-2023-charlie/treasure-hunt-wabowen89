@@ -9,7 +9,11 @@ const Square = (props) => {
 
         {props.board.map((value, index) => {
           return (
-            <div className="square" key={index}>
+            <div 
+              className="square" 
+              key={index}
+              onClick={() => {props.handleClick(index)}}
+            >
               {value}
             </div>
           )}
