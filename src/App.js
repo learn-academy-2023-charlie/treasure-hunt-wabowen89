@@ -16,7 +16,10 @@ const App = () => {
   ])
 
   const handleClick = (selectedIndex) => {
-    alert(selectedIndex)
+    const newBoard = [...board]
+    newBoard[selectedIndex] = "🌴"
+    setBoard(newBoard)
+    
   }
 
   return (
