@@ -10,6 +10,16 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 ### 📚 User Stories
 
 - As a user, I can see a page with a three by three grid board game with a question mark in each square.
+    -Branch: board
+    -Known: 9 question marks
+    -Return: 3x3 grid with the question marks
+    -Process:
+        -Iterate throught the values in the array, returning a square (possible tool: .map())
+        -Add styling in css to center questions marks and create grid
+            -update square class to center question marks
+            -create grid class to place all boxes in 3x3 grid
+
+
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
@@ -31,3 +41,8 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - As a developer, my variables are all named semantically.
 - As a developer, I have refactored and efficient code.
 - As a developer, I have my application [deployed as a live website](https://render.com/docs/deploy-create-react-app).
+
+
+### Layout
+- App.js: Contains the logic. Maintains all the data, variables, functions to pass to child components
+- Square.js: Displays 
